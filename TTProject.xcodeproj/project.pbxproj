@@ -335,7 +335,7 @@
 				6427F1D51F9842E700B4DFC1 /* Contact(通讯录) */,
 				2050E4F71DB0BBA70027C22E /* TTLogger(日志打印) */,
 				201FBF771D928AC000A4D5E4 /* Resource */,
-				2086A43C1D73D14700454087 /* TTBase */,
+				2086A43C1D73D14700454087 /* Base */,
 				2062D7651D4843B800B7BF5D /* Supporting Files */,
 			);
 			path = TTProject;
@@ -373,21 +373,21 @@
 			path = "TTData(数据模型转换)";
 			sourceTree = "<group>";
 		};
-		2086A43C1D73D14700454087 /* TTBase */ = {
+		2086A43C1D73D14700454087 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2086F6C11D74868300BB6559 /* TTBaseViewController */,
+				2086F6C11D74868300BB6559 /* BaseViewController */,
 			);
-			path = TTBase;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		2086F6C11D74868300BB6559 /* TTBaseViewController */ = {
+		2086F6C11D74868300BB6559 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
 				2086A43D1D73D28500454087 /* TTBaseViewController.h */,
 				2086A43E1D73D28500454087 /* TTBaseViewController.m */,
 			);
-			name = TTBaseViewController;
+			name = BaseViewController;
 			sourceTree = "<group>";
 		};
 		20B913F11D93891700FB5EC8 /* NewsModel */ = {

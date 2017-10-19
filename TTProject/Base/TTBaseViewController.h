@@ -12,22 +12,21 @@ typedef void(^CloseBtnClickBlock)(void);
 
 @interface TTBaseViewController : UIViewController
 
-@property (nonatomic, assign) BOOL hideNavBar;
+@property (nonatomic, assign) BOOL hideNavBar;      //是否隐藏导航栏
 @property (nonatomic, assign) BOOL showCloseButton;
 @property (nonatomic, copy) CloseBtnClickBlock closeBtnClickBlock;
 
-/**
- *  隐藏网络错误提示界面
- */
-- (void)hideNetErrorView;
-
-/**
- *  显示网络错误界面
- */
-- (void)showNetErrorViewWithClickBlock:(void (^)(void))clickBlock;
-
-//返回按钮点击后触发
-- (void)handleReturnBtnPressed:(id)sender;
+///**
+// *  隐藏网络错误提示界面
+// */
+//- (void)hideNetErrorView;
+///**
+// *  显示网络错误界面
+// */
+//- (void)showNetErrorViewWithClickBlock:(void (^)(void))clickBlock;
+//
+////返回按钮点击后触发
+//- (void)handleReturnBtnPressed:(id)sender;
 
 
 @end
