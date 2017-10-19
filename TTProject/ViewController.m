@@ -11,7 +11,8 @@
 //#import "TTTestWebViewController.h"
 //#import "TTDataParserViewController.h"
 #import "TTContactViewController.h"
-
+#import "TTBaseViewController.h"
+#import "TTBaseNavigationController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -30,7 +31,7 @@
     self.navigationItem.title = @"Function List";
     self.listView.delegate = self;
     self.listView.dataSource = self;
-    self.demoLists = @[@"运行时Demo", @"通讯录", @"数据-模型转换"];
+    self.demoLists = @[@"运行时Demo", @"通讯录", @"基类控制器"];
 //    NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) objectAtIndex:0];
 //    LogError(@"Test Error System!");
     //[self testMutableCopy];
@@ -104,7 +105,9 @@
             break;
         case 2:
         {
-            
+            TTBaseViewController *baseViewController = [[TTBaseViewController alloc] init];
+            TTBaseNavigationController *baseNav = [[TTBaseNavigationController alloc] initWithRootViewController:baseViewController];
+            [self.navigationController pushViewController:baseNav animated:YES];
         }
             break;
         case 3:

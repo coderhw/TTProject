@@ -16,6 +16,7 @@ typedef void(^CloseBtnClickBlock)(void);
 @property (nonatomic, assign) BOOL showCloseButton;
 @property (nonatomic, copy) CloseBtnClickBlock closeBtnClickBlock;
 
+
 ///**
 // *  隐藏网络错误提示界面
 // */

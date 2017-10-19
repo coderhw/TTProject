@@ -75,6 +75,7 @@
 		6427F26B1F98547A00B4DFC1 /* TTWebViewBridgeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6427F2691F98547A00B4DFC1 /* TTWebViewBridgeController.xib */; };
 		6427F26F1F9854CA00B4DFC1 /* TTBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F26D1F9854CA00B4DFC1 /* TTBaseWebViewController.m */; };
 		6427F2701F9854CA00B4DFC1 /* TTBaseWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6427F26E1F9854CA00B4DFC1 /* TTBaseWebViewController.xib */; };
+		6427F2731F98789400B4DFC1 /* TTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427F2721F98789400B4DFC1 /* TTBaseNavigationController.m */; };
 		A6BB117AA229453CC6AB1B6C /* libPods-TTProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07EC067BF1B97EB80388711 /* libPods-TTProject.a */; };
 /* End PBXBuildFile section */
 
@@ -211,6 +212,8 @@
 		6427F26C1F9854CA00B4DFC1 /* TTBaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBaseWebViewController.h; sourceTree = "<group>"; };
 		6427F26D1F9854CA00B4DFC1 /* TTBaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBaseWebViewController.m; sourceTree = "<group>"; };
 		6427F26E1F9854CA00B4DFC1 /* TTBaseWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTBaseWebViewController.xib; sourceTree = "<group>"; };
+		6427F2711F98789400B4DFC1 /* TTBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBaseNavigationController.h; sourceTree = "<group>"; };
+		6427F2721F98789400B4DFC1 /* TTBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBaseNavigationController.m; sourceTree = "<group>"; };
 		64A6C7B51F9458BD0063008F /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
 		B51A67409D0AE6984AABE518 /* Pods-TTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTProject/Pods-TTProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D07EC067BF1B97EB80388711 /* libPods-TTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -386,6 +389,8 @@
 			children = (
 				2086A43D1D73D28500454087 /* TTBaseViewController.h */,
 				2086A43E1D73D28500454087 /* TTBaseViewController.m */,
+				6427F2711F98789400B4DFC1 /* TTBaseNavigationController.h */,
+				6427F2721F98789400B4DFC1 /* TTBaseNavigationController.m */,
 			);
 			name = BaseViewController;
 			sourceTree = "<group>";
@@ -674,6 +679,7 @@
 				6427F24B1F984B9E00B4DFC1 /* VKDateFormatUtil.m in Sources */,
 				6427F2351F984B9E00B4DFC1 /* NSDate+SSToolkitAdditions.m in Sources */,
 				6427F2461F984B9E00B4DFC1 /* UIImage+ImageEffects.m in Sources */,
+				6427F2731F98789400B4DFC1 /* TTBaseNavigationController.m in Sources */,
 				6427F2481F984B9E00B4DFC1 /* UIView+Awesome.m in Sources */,
 				6427F2491F984B9E00B4DFC1 /* UIView+ViewExtension.m in Sources */,
 				20B913DD1D936A5D00FB5EC8 /* TTPersonModel.m in Sources */,
